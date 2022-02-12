@@ -2,7 +2,7 @@ import { app } from './app';
 import * as http from 'http';
 import * as mongoose from 'mongoose';
 
-const PORT = 4000;
+const PORT = 80;
 const MONGO_URI = 'mongodb://127.0.0.1:27017/todo';
 const server = http.createServer(app);
 server.listen(PORT);
